@@ -1,0 +1,6 @@
+2026-02-07 16:10:44,431 - DEBUG - Using json encoder/decoder
+2026-02-07 16:10:44,519 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v1.csv.
+2026-02-07 16:11:04,589 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v2.csv.
+2026-02-07 16:11:22,916 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v3.csv.
+2026-02-07 16:11:41,199 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v4.csv.
+2026-02-07 16:12:01,283 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v5.csv.

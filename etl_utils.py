@@ -68,6 +68,8 @@ def transform_df_json_based(dataframe):
     return df
 
 
+
+
 def transform(data_frame):
     """
     This function take the raw input data frame
@@ -108,9 +110,48 @@ def load_to_parquet(transformed_df, destination_file):
     transformed_df.to_parquet(destination_file)
 
 
-if __name__ == "__main__":
-    with open("data-sources/all_data.json") as f:
-        json_data = json.load(f)
+# From json data to clean data frame
+def json_to_df(json_data):
 
-    with open("data-sources/testing_scores.json", "w") as json_file:
-        json.dump(json_data, json_file, indent=4)
+    normalized_testing_scores = []
+
+    # read json file
+    with open(json_data) as json_file:
+        # load
+        json_data = json.load(json_file)
+
+    # print(type(json_data))   # dict
+
+    for school_id, school_info in json_data.items():
+        normalized_testing_scores.append(
+            [
+                school_id,
+                school_info.get("street_address"),
+                school_info.get("city"),
+                school_info.get("scores").get("math"),
+                school_info.get("scores").get("reading"),
+                school_info.get("scores").get("writing"),
+            ]
+        )
+
+    # print(normalized_testing_scores[:4])
+
+    # Create a DataFrame from the normalized_testing_scores list
+    df = pd.DataFrame(normalized_testing_scores)
+    
+    # set columns names 
+    df.columns = [
+        "school_id",
+        "street_address",
+        "city",
+        "score_math",
+        "score_reading",
+        "score_writing"
+    ]
+
+    print(df.head())
+
+
+if __name__ == "__main__":
+    # demo
+    json_to_df("data-sources/testing_scores.json")

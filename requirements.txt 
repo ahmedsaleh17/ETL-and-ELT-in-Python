@@ -1,3 +1,4 @@
 logging
 pandas 
 fastparquet
+json

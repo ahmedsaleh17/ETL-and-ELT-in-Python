@@ -1,7 +1,7 @@
-2026-02-08 22:01:24,694 - DEBUG - Using json encoder/decoder
-2026-02-08 22:01:24,751 - INFO - First Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned.csv.
-2026-02-08 22:01:24,752 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
-2026-02-08 22:01:24,752 - DEBUG - Shape of the DataFrame before Transformation: (435, 6)
-2026-02-08 22:01:34,787 - INFO - Second Data Pipeline Running successfully and testing scores json data are loaded into testing_scores.csv
-2026-02-08 22:01:34,788 - DEBUG - Shape of the DataFrame before Transformation: (14, 2)
-2026-02-08 22:01:34,788 - DEBUG - Shape of the DataFrame after Transformation: (14, 6)
+2026-02-08 23:38:03,900 - DEBUG - Using json encoder/decoder
+2026-02-08 23:38:03,981 - INFO - First Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned.csv.
+2026-02-08 23:38:03,982 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
+2026-02-08 23:38:03,982 - DEBUG - Shape of the DataFrame after Transformation: (435, 6)
+2026-02-08 23:38:14,041 - INFO - Second Data Pipeline Running successfully and testing scores json data are loaded into testing_scores.csv
+2026-02-08 23:38:14,042 - DEBUG - Shape of the DataFrame before Transformation: (228, 2)
+2026-02-08 23:38:14,043 - DEBUG - Shape of the DataFrame after Transformation: (228, 6)

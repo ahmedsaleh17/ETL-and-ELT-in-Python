@@ -25,7 +25,7 @@ if __name__ == "__main__":
     file_name = "data-sources/scores.parquet"
 
     # very simple automation :)
-    
+
     # run pipeline every 20 seconds
     while True:
 
@@ -47,6 +47,15 @@ if __name__ == "__main__":
             logging.info(
                 f"Data Pipeline Running successfully and data are loaded into {dest_file}."
             )
+
+            logging.debug(
+                f"Shape of the DataFrame before Transformation: {extracted_data.shape}"
+            )
+            
+            logging.debug(
+                f"Shape of the DataFrame before Transformation: {clean_data.shape}"
+            )
+
 
             # increase version
             version += 1

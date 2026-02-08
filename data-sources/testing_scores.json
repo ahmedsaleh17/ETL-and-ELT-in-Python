@@ -1,0 +1,128 @@
+{
+  "01M292": {
+    "street_address": "220 Henry Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 410.0,
+      "reading": 406.0,
+      "writing": 381.0
+    }
+  },
+  "01M448": {
+    "street_address": "200 Monroe Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 437.0,
+      "reading": 355.0,
+      "writing": 352.0
+    }
+  },
+  "01M509": {
+    "street_address": "145 Stanton Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 438.0,
+      "reading": 413.0,
+      "writing": 394.0
+    }
+  },
+  "01M539": {
+    "street_address": "111 Columbia Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 657.0,
+      "reading": 601.0,
+      "writing": 601.0
+    }
+  },
+  "01M696": {
+    "street_address": "525 East Houston Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 634.0,
+      "reading": 641.0,
+      "writing": 639.0
+    }
+  },
+  "02M260": {
+    "street_address": "425 West 33rd Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": null,
+      "reading": null,
+      "writing": null
+    }
+  },
+  "02M294": {
+    "street_address": "350 Grand Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 395.0,
+      "reading": 411.0,
+      "writing": 387.0
+    }
+  },
+  "02M298": {
+    "street_address": "100 Hester Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 430.0,
+      "reading": 435.0,
+      "writing": 427.0
+    }
+  },
+  "02M305": {
+    "street_address": "350 Grand Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 389.0,
+      "reading": 395.0,
+      "writing": 381.0
+    }
+  },
+  "02M308": {
+    "street_address": "350 Grand Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 418.0,
+      "reading": 428.0,
+      "writing": 415.0
+    }
+  },
+  "02M420": {
+    "street_address": "345 East 15th Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 452.0,
+      "reading": 445.0,
+      "writing": 430.0
+    }
+  },
+  "02M543": {
+    "street_address": "350 Grand Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 381.0,
+      "reading": 396.0,
+      "writing": 372.0
+    }
+  },
+  "02M545": {
+    "street_address": "350 Grand Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": 613.0,
+      "reading": 453.0,
+      "writing": 463.0
+    }
+  },
+  "06M211": {
+    "street_address": "650 Academy Street",
+    "city": "Manhattan",
+    "scores": {
+      "math": null,
+      "reading": null,
+      "writing": null
+    }
+  }
+}

@@ -26,6 +26,41 @@ def extract_from_parquet(file_path):
     return pd.read_parquet(file_path, engine= 'fastparquet')
 
 
+def extract_from_json(file_path):
+    """
+    Docstring for extract_from_json
+    
+    :param file_path: the path of the JSON file you want to ingest
+    :return: A Pandas DataFrame
+    """
+    # Load the data and orient by index (rows)
+    df = pd.read_json(file_path, orient= 'index')
+    return df 
+
+
+def transform_df_json_based(dataframe):
+    """
+    Docstring for transform_df_json_based
+    
+    Flattens nested 'scores' column into individual columns and restructures the dataframe.
+    
+    :param dataframe: the raw input dataframe with nested 'scores' column
+    :return: A transformed dataframe with flattened scores and reset index
+    """
+    # Flatten the nested 'scores' column into individual columns 
+    scores_df = dataframe['scores'].apply(pd.Series)
+    # drop scores column from the dataframe 
+    dataframe.drop(columns= 'scores', inplace = True)
+
+    # now concat the dataframe with scores_df 
+    df = pd.concat([dataframe, scores_df], axis= 1)
+    # rename the index 
+    df.index.name = 'scores_id'
+    # reset the index 
+    df.reset_index(inplace = True)
+    
+    return df
+
 def transform(data_frame):
     """
     This function take the raw input data frame 
@@ -58,3 +93,11 @@ def load_to_parquet(transformed_df, destination_file):
     :param destination_file: The path of parquet file you want to load data into.
     """
     transformed_df.to_parquet(destination_file)
+
+
+
+if __name__ == "__main__":
+    filepath = 'data-sources/testing_scores.json'
+    df = extract_from_json(filepath)
+    clean_data = transform_df_json_based(df)
+    print(clean_data.head())

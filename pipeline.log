@@ -1,16 +1,7 @@
-2026-02-07 17:10:36,465 - DEBUG - Using json encoder/decoder
-2026-02-07 17:10:36,512 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v1.csv.
-2026-02-07 17:10:36,513 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
-2026-02-07 17:10:36,514 - DEBUG - Shape of the DataFrame before Transformation: (435, 6)
-2026-02-07 17:10:54,765 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v2.csv.
-2026-02-07 17:10:54,765 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
-2026-02-07 17:10:54,766 - DEBUG - Shape of the DataFrame before Transformation: (435, 6)
-2026-02-07 17:11:14,856 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v3.csv.
-2026-02-07 17:11:14,858 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
-2026-02-07 17:11:14,863 - DEBUG - Shape of the DataFrame before Transformation: (435, 6)
-2026-02-07 17:11:33,155 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v4.csv.
-2026-02-07 17:11:33,156 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
-2026-02-07 17:11:33,157 - DEBUG - Shape of the DataFrame before Transformation: (435, 6)
-2026-02-07 17:11:51,408 - INFO - Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned_v5.csv.
-2026-02-07 17:11:51,408 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
-2026-02-07 17:11:51,409 - DEBUG - Shape of the DataFrame before Transformation: (435, 6)
+2026-02-08 22:01:24,694 - DEBUG - Using json encoder/decoder
+2026-02-08 22:01:24,751 - INFO - First Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned.csv.
+2026-02-08 22:01:24,752 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
+2026-02-08 22:01:24,752 - DEBUG - Shape of the DataFrame before Transformation: (435, 6)
+2026-02-08 22:01:34,787 - INFO - Second Data Pipeline Running successfully and testing scores json data are loaded into testing_scores.csv
+2026-02-08 22:01:34,788 - DEBUG - Shape of the DataFrame before Transformation: (14, 2)
+2026-02-08 22:01:34,788 - DEBUG - Shape of the DataFrame after Transformation: (14, 6)

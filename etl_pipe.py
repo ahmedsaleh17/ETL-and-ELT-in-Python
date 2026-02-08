@@ -33,8 +33,8 @@ if __name__ == "__main__":
         dest_file = f"data-sources/scores_cleaned.csv"
 
         # extracted_data = extract_from_csv(file_name)
-        
-        # first pipeline 
+
+        # first pipeline
 
         # reading data from parquet, transform this data and then load to csv
         extracted_data = extract_from_parquet(data_path2)
@@ -61,9 +61,6 @@ if __name__ == "__main__":
     except Exception as e:
         logging.error(f"{e} arose in execution in first pipeliney")
 
-       
-
-    
     # run the second pipeline that ingest json data, then transform it and load it as csv file
     try:
         # Extract
@@ -76,8 +73,12 @@ if __name__ == "__main__":
             "Second Data Pipeline Running successfully and testing scores json data are loaded into testing_scores.csv"
         )
 
-        logging.debug(f'Shape of the DataFrame before Transformation: {df_json.shape}')
-        logging.debug(f'Shape of the DataFrame after Transformation: {df_clean.shape}')
+        logging.debug(f"Shape of the DataFrame before Transformation: {df_json.shape}")
+        logging.debug(f"Shape of the DataFrame after Transformation: {df_clean.shape}")
+        logging.debug(
+            f"""Checking the numbers of null values after runnign pipeline:
+                      \t \t  Total Null values in testing_scores data is: {df_clean.isna().sum().sum()}"""
+        )
 
     except Exception as e:
         logging.error(f"{e} arose in execution in the second pipeline")

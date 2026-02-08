@@ -61,6 +61,10 @@ def transform_df_json_based(dataframe):
     # reset the index
     df.reset_index(inplace=True)
 
+    # replace nulls by the average values
+    cols = ["math", "reading", "writing"]
+    df[cols] = df[cols].fillna(df[cols].mean().round())
+
     return df
 
 
@@ -105,7 +109,7 @@ def load_to_parquet(transformed_df, destination_file):
 
 
 if __name__ == "__main__":
-    with open("data-sources/all_scores.json") as f:
+    with open("data-sources/all_data.json") as f:
         json_data = json.load(f)
 
     with open("data-sources/testing_scores.json", "w") as json_file:

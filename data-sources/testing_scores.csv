@@ -1,6 +1,6 @@
 ,scores_id,street_address,city,math,reading,writing
-0,02M260,425 West 33rd Street,Manhattan,,,
-1,06M211,650 Academy Street,Manhattan,,,
+0,02M260,425 West 33rd Street,Manhattan,433.0,426.0,420.0
+1,06M211,650 Academy Street,Manhattan,433.0,426.0,420.0
 2,01M539,111 Columbia Street,Manhattan,657.0,601.0,601.0
 3,02M294,350 Grand Street,Manhattan,395.0,411.0,387.0
 4,02M308,350 Grand Street,Manhattan,418.0,428.0,415.0
@@ -14,8 +14,8 @@
 12,02M298,100 Hester Street,Manhattan,430.0,435.0,427.0
 13,02M420,345 East 15th Street,Manhattan,452.0,445.0,430.0
 14,02M399,40 Irving Place,Manhattan,446.0,433.0,411.0
-15,02M546,40 Irving Place,Manhattan,,,
-16,02M533,40 Irving Place,Manhattan,,,
+15,02M546,40 Irving Place,Manhattan,433.0,426.0,420.0
+16,02M533,40 Irving Place,Manhattan,433.0,426.0,420.0
 17,02M438,40 Irving Place,Manhattan,403.0,330.0,316.0
 18,02M407,345 East 15th Street,Manhattan,501.0,550.0,541.0
 19,02M374,40 Irving Place,Manhattan,446.0,459.0,455.0
@@ -27,28 +27,28 @@
 25,02M425,90 Trinity Place,Manhattan,390.0,396.0,392.0
 26,01M450,420 East 12th Street,Manhattan,454.0,428.0,445.0
 27,02M411,55 East 25th Street,Manhattan,592.0,526.0,531.0
-28,02M047,223 East 23rd Street,Manhattan,,,
+28,02M047,223 East 23rd Street,Manhattan,433.0,426.0,420.0
 29,02M413,127 East 22nd Street,Manhattan,534.0,533.0,522.0
 30,02M439,43 West 22nd Street,Manhattan,522.0,479.0,510.0
-31,02M422,351 West 18th Street,Manhattan,,,
+31,02M422,351 West 18th Street,Manhattan,433.0,426.0,420.0
 32,02M412,333 West 17th Street,Manhattan,595.0,550.0,555.0
-33,02M534,34 West 14th Street,Manhattan,,,
+33,02M534,34 West 14th Street,Manhattan,433.0,426.0,420.0
 34,02M437,351 West 18th Street,Manhattan,378.0,407.0,388.0
 35,02M392,351 West 18th Street,Manhattan,410.0,407.0,399.0
-36,02M605,351 West 18th Street,Manhattan,,,
+36,02M605,351 West 18th Street,Manhattan,433.0,426.0,420.0
 37,02M419,351 West 18th Street,Manhattan,386.0,386.0,386.0
 38,02M600,225 West 24th Street,Manhattan,433.0,442.0,427.0
 39,02M414,333 West 17th Street,Manhattan,560.0,530.0,522.0
 40,02M615,131 Avenue of the Americas,Manhattan,439.0,418.0,400.0
 41,02M376,131 Avenue of the Americas,Manhattan,518.0,515.0,503.0
-42,02M432,111 East 33rd Street,Manhattan,,,
+42,02M432,111 East 33rd Street,Manhattan,433.0,426.0,420.0
 43,02M427,111 East 33rd Street,Manhattan,350.0,334.0,321.0
 44,02M500,111 East 33rd Street,Manhattan,375.0,385.0,387.0
 45,02M393,439 West 49th Street,Manhattan,395.0,386.0,371.0
 46,02M303,525 West 50th Street,Manhattan,366.0,356.0,371.0
 47,02M296,525 West 50th Street,Manhattan,451.0,433.0,424.0
 48,02M300,525 West 50th Street,Manhattan,445.0,417.0,403.0
-49,02M135,439 West 49th Street,Manhattan,,,
+49,02M135,439 West 49th Street,Manhattan,433.0,426.0,420.0
 50,02M400,444 West 56th Street,Manhattan,469.0,454.0,444.0
 51,02M630,231-249 East 56th Street,Manhattan,455.0,475.0,458.0
 52,02M542,525 West 50th Street,Manhattan,409.0,360.0,347.0
@@ -61,7 +61,7 @@
 59,03M485,100 Amsterdam Avenue,Manhattan,592.0,592.0,597.0
 60,03M494,122 Amsterdam Avenue,Manhattan,421.0,428.0,406.0
 61,03M541,122 Amsterdam Avenue,Manhattan,581.0,531.0,535.0
-62,03M859,122 Amsterdam Avenue,Manhattan,,,
+62,03M859,122 Amsterdam Avenue,Manhattan,433.0,426.0,420.0
 63,03M492,122 Amsterdam Avenue,Manhattan,415.0,417.0,402.0
 64,03M402,145 West 84th Street,Manhattan,393.0,371.0,378.0
 65,03M417,145 West 84th Street,Manhattan,489.0,491.0,500.0
@@ -76,7 +76,7 @@
 74,04M495,230 East 105th Street,Manhattan,429.0,433.0,435.0
 75,04M610,105 East 106th Street,Manhattan,478.0,465.0,472.0
 76,04M435,260 Pleasant Avenue,Manhattan,556.0,505.0,495.0
-77,04M372,240 East 109th Street,Manhattan,,,
+77,04M372,240 East 109th Street,Manhattan,433.0,426.0,420.0
 78,05M304,6 Edgecombe Avenue,Manhattan,416.0,445.0,440.0
 79,05M670,200-214 West 135th Street,Manhattan,402.0,394.0,400.0
 80,05M692,240 Convent Avenue,Manhattan,683.0,610.0,596.0
@@ -84,16 +84,16 @@
 82,06M552,501 West 165th Street,Manhattan,383.0,355.0,352.0
 83,06M346,504 West 158th Street,Manhattan,387.0,389.0,385.0
 84,06M348,511 West 182nd Street,Manhattan,443.0,423.0,434.0
-85,06M423,650 Academy Street,Manhattan,,,
-86,05M157,2005 Madison Avenue,Manhattan,,,
+85,06M423,650 Academy Street,Manhattan,433.0,426.0,420.0
+86,05M157,2005 Madison Avenue,Manhattan,433.0,426.0,420.0
 87,04M409,2351 1st Avenue,Manhattan,344.0,368.0,367.0
 88,02M531,123 West 43rd Street,Manhattan,425.0,451.0,458.0
 89,02M408,328 West 48th Street,Manhattan,496.0,520.0,516.0
 90,02M529,120 West 46th Street,Manhattan,418.0,422.0,415.0
-91,02M280,411 Pearl Street,Manhattan,,,
+91,02M280,411 Pearl Street,Manhattan,433.0,426.0,420.0
 92,02M520,411 Pearl Street,Manhattan,418.0,415.0,398.0
-93,02M282,411 Pearl Street,Manhattan,,,
-94,02M139,411 Pearl Street,Manhattan,,,
+93,02M282,411 Pearl Street,Manhattan,433.0,426.0,420.0
+94,02M139,411 Pearl Street,Manhattan,433.0,426.0,420.0
 95,05M499,2581 7th Avenue,Manhattan,463.0,452.0,450.0
 96,06M463,549 Audubon Avenue,Manhattan,378.0,381.0,383.0
 97,06M462,549 Audubon Avenue,Manhattan,367.0,377.0,363.0
@@ -115,7 +115,7 @@
 113,31R460,1200 Manor Road,Staten Island,496.0,490.0,487.0
 114,31R064,100 Essex Drive,Staten Island,442.0,458.0,454.0
 115,31R047,100 Essex Drive,Staten Island,477.0,468.0,464.0
-116,07X522,333 East 151st Street,Bronx,,,
+116,07X522,333 East 151st Street,Bronx,433.0,426.0,420.0
 117,07X547,730 Concourse Village West,Bronx,390.0,398.0,376.0
 118,09X505,244 East 163rd Street,Bronx,403.0,409.0,415.0
 119,07X548,730 Concourse Village West,Bronx,402.0,405.0,395.0
@@ -124,19 +124,19 @@
 122,07X670,350 Gerard Avenue,Bronx,374.0,386.0,382.0
 123,07X427,350 Gerard Avenue,Bronx,380.0,382.0,362.0
 124,07X600,333 East 151st Street,Bronx,390.0,373.0,371.0
-125,09X327,1501 Jerome Avenue,Bronx,,,
+125,09X327,1501 Jerome Avenue,Bronx,433.0,426.0,420.0
 126,09X365,1700 Macombs Road,Bronx,371.0,334.0,348.0
-127,07X223,360 East 145th Street,Bronx,,,
+127,07X223,360 East 145th Street,Bronx,433.0,426.0,420.0
 128,07X221,360 East 145th Street,Bronx,419.0,414.0,394.0
 129,07X334,345 Brook Avenue,Bronx,345.0,338.0,312.0
-130,07X520,470 Jackson Avenue,Bronx,,,
+130,07X520,470 Jackson Avenue,Bronx,433.0,426.0,420.0
 131,07X500,600 St Anns Avenue,Bronx,463.0,451.0,435.0
-132,07X259,455 Southern Boulevard,Bronx,,,
+132,07X259,455 Southern Boulevard,Bronx,433.0,426.0,420.0
 133,07X495,701 St Anns Avenue,Bronx,420.0,446.0,424.0
 134,07X473,701 St Anns Avenue,Bronx,377.0,373.0,369.0
 135,09X543,1110 Boston Road,Bronx,363.0,401.0,396.0
 136,09X403,1110 Boston Road,Bronx,355.0,330.0,320.0
-137,08X559,900 Tinton Avenue,Bronx,,,
+137,08X559,900 Tinton Avenue,Bronx,433.0,426.0,420.0
 138,12X479,800 Home Street,Bronx,370.0,379.0,381.0
 139,09X260,1363 Fulton Avenue,Bronx,513.0,468.0,485.0
 140,09X324,250 East 164th Street,Bronx,424.0,413.0,409.0
@@ -145,12 +145,12 @@
 143,09X404,1110 Boston Road,Bronx,377.0,385.0,383.0
 144,09X297,1110 Boston Road,Bronx,407.0,389.0,386.0
 145,09X517,3630 Third Avenue,Bronx,387.0,386.0,386.0
-146,09X564,240 East 172nd Street,Bronx,,,
+146,09X564,240 East 172nd Street,Bronx,433.0,426.0,420.0
 147,09X241,1595 Bathgate Avenue,Bronx,445.0,418.0,422.0
 148,09X227,240 East 172nd Street,Bronx,395.0,401.0,382.0
 149,09X252,1595 Bathgate Avenue,Bronx,417.0,399.0,398.0
-150,09X276,1701 Fulton Avenue,Bronx,,,
-151,09X350,240 East 172nd Street,Bronx,,,
+150,09X276,1701 Fulton Avenue,Bronx,433.0,426.0,420.0
+151,09X350,240 East 172nd Street,Bronx,433.0,426.0,420.0
 152,09X525,1710 Webster Avenue,Bronx,375.0,372.0,374.0
 153,09X263,1595 Bathgate Avenue,Bronx,382.0,375.0,384.0
 154,09X413,240 East 172nd Street,Bronx,431.0,421.0,426.0
@@ -159,12 +159,12 @@
 157,09X329,240 East 172nd Street,Bronx,385.0,385.0,388.0
 158,10X225,2225 Webster Avenue,Bronx,402.0,421.0,410.0
 159,10X243,500 East Fordham Road,Bronx,404.0,383.0,378.0
-160,10X524,2474 Crotona Avenue,Bronx,,,
+160,10X524,2474 Crotona Avenue,Bronx,433.0,426.0,420.0
 161,10X439,500 East Fordham Road,Bronx,401.0,402.0,386.0
-162,10X264,2474 Crotona Avenue,Bronx,,,
+162,10X264,2474 Crotona Avenue,Bronx,433.0,426.0,420.0
 163,10X434,500 East Fordham Road,Bronx,413.0,408.0,402.0
 164,10X437,500 East Fordham Road,Bronx,398.0,404.0,412.0
-165,10X565,2474 Crotona Avenue,Bronx,,,
+165,10X565,2474 Crotona Avenue,Bronx,433.0,426.0,420.0
 166,10X374,500 East Fordham Road,Bronx,408.0,417.0,404.0
 167,10X438,500 East Fordham Road,Bronx,355.0,373.0,368.0
 168,12X248,1180 Rev JA Polite Avenue,Bronx,387.0,388.0,386.0
@@ -178,12 +178,12 @@
 176,12X251,1619 Boston Road,Bronx,377.0,372.0,365.0
 177,12X372,2024 Mohegan Avenue,Bronx,393.0,397.0,379.0
 178,12X684,1122 East 180th Street,Bronx,379.0,372.0,373.0
-179,08X348,3000 East Tremont Avenue,Bronx,,,
+179,08X348,3000 East Tremont Avenue,Bronx,433.0,426.0,420.0
 180,08X293,3000 East Tremont Avenue,Bronx,390.0,411.0,393.0
-181,08X558,3000 East Tremont Avenue,Bronx,,,
-182,08X320,3000 East Tremont Avenue,Bronx,,,
+181,08X558,3000 East Tremont Avenue,Bronx,433.0,426.0,420.0
+182,08X320,3000 East Tremont Avenue,Bronx,433.0,426.0,420.0
 183,08X405,3000 East Tremont Avenue,Bronx,426.0,419.0,407.0
-184,08X349,3000 East Tremont Avenue,Bronx,,,
+184,08X349,3000 East Tremont Avenue,Bronx,433.0,426.0,420.0
 185,11X418,2040 Antin Place,Bronx,408.0,428.0,404.0
 186,10X368,2975 Tibbett Avenue,Bronx,426.0,419.0,404.0
 187,10X284,99 Terrace View Avenue,Bronx,384.0,394.0,366.0
@@ -205,12 +205,12 @@
 203,10X445,75 West 205th Street,Bronx,714.0,660.0,667.0
 204,10X268,2780 Reservoir Avenue,Bronx,366.0,311.0,310.0
 205,10X549,2780 Reservoir Avenue,Bronx,432.0,396.0,395.0
-206,10X353,100 West Mosholu Parkway South,Bronx,,,
+206,10X353,100 West Mosholu Parkway South,Bronx,433.0,426.0,420.0
 207,10X442,2780 Reservoir Avenue,Bronx,417.0,434.0,425.0
 208,10X696,2925 Goulden Avenue,Bronx,669.0,672.0,672.0
 209,10X440,100 West Mosholu Parkway South,Bronx,445.0,436.0,433.0
 210,10X342,2780 Reservoir Avenue,Bronx,390.0,387.0,379.0
-211,10X351,100 West Mosholu Parkway South,Bronx,,,
+211,10X351,100 West Mosholu Parkway South,Bronx,433.0,426.0,420.0
 212,11X299,925 Astor Avenue,Bronx,422.0,417.0,409.0
 213,11X542,925 Astor Avenue,Bronx,420.0,433.0,425.0
 214,11X509,925 Astor Avenue,Bronx,356.0,340.0,320.0
@@ -225,5 +225,5 @@
 223,08X312,1980 Lafayette Avenue,Bronx,396.0,413.0,395.0
 224,08X452,1980 Lafayette Avenue,Bronx,365.0,393.0,357.0
 225,08X367,456 White Plains Road,Bronx,418.0,430.0,403.0
-226,08X432,1980 Lafayette Avenue,Bronx,,,
+226,08X432,1980 Lafayette Avenue,Bronx,433.0,426.0,420.0
 227,08X305,1980 Lafayette Avenue,Bronx,394.0,384.0,378.0

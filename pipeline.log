@@ -1,7 +1,9 @@
-2026-02-08 23:38:03,900 - DEBUG - Using json encoder/decoder
-2026-02-08 23:38:03,981 - INFO - First Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned.csv.
-2026-02-08 23:38:03,982 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
-2026-02-08 23:38:03,982 - DEBUG - Shape of the DataFrame after Transformation: (435, 6)
-2026-02-08 23:38:14,041 - INFO - Second Data Pipeline Running successfully and testing scores json data are loaded into testing_scores.csv
-2026-02-08 23:38:14,042 - DEBUG - Shape of the DataFrame before Transformation: (228, 2)
-2026-02-08 23:38:14,043 - DEBUG - Shape of the DataFrame after Transformation: (228, 6)
+2026-02-09 00:00:44,999 - DEBUG - Using json encoder/decoder
+2026-02-09 00:00:45,040 - INFO - First Data Pipeline Running successfully and data are loaded into data-sources/scores_cleaned.csv.
+2026-02-09 00:00:45,041 - DEBUG - Shape of the DataFrame before Transformation: (435, 22)
+2026-02-09 00:00:45,041 - DEBUG - Shape of the DataFrame after Transformation: (435, 6)
+2026-02-09 00:00:55,107 - INFO - Second Data Pipeline Running successfully and testing scores json data are loaded into testing_scores.csv
+2026-02-09 00:00:55,108 - DEBUG - Shape of the DataFrame before Transformation: (228, 2)
+2026-02-09 00:00:55,108 - DEBUG - Shape of the DataFrame after Transformation: (228, 6)
+2026-02-09 00:00:55,109 - DEBUG - Checking the numbers of null values after runnign pipeline:
+                      	 	  Total Null values in testing_scores data is: 0

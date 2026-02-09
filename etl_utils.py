@@ -168,8 +168,6 @@ if __name__ == "__main__":
     # demo
     # json_to_df("data-sources/testing_scores.json")
 
-
-
-    raw_data = extract_from_json('data-sources/testing_scores.json')
+    raw_data = extract_from_json("data-sources/testing_scores.json")
     transformed_data = transform_df_json_based(raw_data)
     print(len(transformed_data.columns))

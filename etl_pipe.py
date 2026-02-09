@@ -41,11 +41,11 @@ if __name__ == "__main__":
         clean_data = transform(extracted_data)
         load_to_csv(clean_data, dest_file)
 
-        # add logs
+        # Log a success message.
         logging.info(
             f"First Data Pipeline Running successfully and data are loaded into {dest_file}."
         )
-
+        # Log a depug message
         logging.debug(
             f"Shape of the DataFrame before Transformation: {extracted_data.shape}"
         )
@@ -59,6 +59,7 @@ if __name__ == "__main__":
         time.sleep(10)
 
     except Exception as e:
+        # Log failure message
         logging.error(f"{e} arose in execution in first pipeliney")
 
     # run the second pipeline that ingest json data, then transform it and load it as csv file

@@ -1,4 +1,6 @@
 logging
 pandas 
+sqlalchemy
 fastparquet
 json
+pytest

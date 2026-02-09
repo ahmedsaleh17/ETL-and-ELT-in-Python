@@ -1,11 +1,10 @@
 """
-Docstring for etl-utils
 build all function of Extraction, Transformation and Loading data
-
 """
 
 import pandas as pd
 import json
+import sqlalchemy
 
 
 def extract_from_csv(file_path):
@@ -68,8 +67,6 @@ def transform_df_json_based(dataframe):
     return df
 
 
-
-
 def transform(data_frame):
     """
     This function take the raw input data frame
@@ -110,6 +107,21 @@ def load_to_parquet(transformed_df, destination_file):
     transformed_df.to_parquet(destination_file)
 
 
+# load into postgresql DataBase
+def load_to_db(data_frame, connection_url, table_name):
+    """
+    load the dataframe into a Table in a postegresql database
+
+    :param data_frame: DataFrame to be loaded
+    :param connection_url: Postegresql Database connection url
+    :param table_name: table name in the database
+    """
+    # create a database engine to connect
+    engine = sqlalchemy.create_engine(connection_url)
+    # load dataframe
+    data_frame.to_sql(con=engine, name=table_name, index=False, if_exists="append")
+
+
 # From json data to clean data frame
 def json_to_df(json_data):
 
@@ -138,15 +150,15 @@ def json_to_df(json_data):
 
     # Create a DataFrame from the normalized_testing_scores list
     df = pd.DataFrame(normalized_testing_scores)
-    
-    # set columns names 
+
+    # set columns names
     df.columns = [
         "school_id",
         "street_address",
         "city",
         "score_math",
         "score_reading",
-        "score_writing"
+        "score_writing",
     ]
 
     print(df.head())
@@ -154,4 +166,10 @@ def json_to_df(json_data):
 
 if __name__ == "__main__":
     # demo
-    json_to_df("data-sources/testing_scores.json")
+    # json_to_df("data-sources/testing_scores.json")
+
+
+
+    raw_data = extract_from_json('data-sources/testing_scores.json')
+    transformed_data = transform_df_json_based(raw_data)
+    print(len(transformed_data.columns))

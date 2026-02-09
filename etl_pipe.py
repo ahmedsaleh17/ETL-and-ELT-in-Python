@@ -76,8 +76,7 @@ if __name__ == "__main__":
         logging.debug(f"Shape of the DataFrame before Transformation: {df_json.shape}")
         logging.debug(f"Shape of the DataFrame after Transformation: {df_clean.shape}")
         logging.debug(
-            f"""Checking the numbers of null values after runnign pipeline:
-                      \t \t  Total Null values in testing_scores data is: {df_clean.isna().sum().sum()}"""
+            f"""Checking the numbers of null values after runnign pipeline: Total Null values in testing_scores data is: {df_clean.isna().sum().sum()}"""
         )
 
     except Exception as e:
